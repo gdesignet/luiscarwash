@@ -953,7 +953,30 @@ border: 0px solid #000000; width: 40px; height: 40px; }
         color: #555;
     }
 }
-
+.modal-body{
+    background: #333;
+}
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    border:5px black;
+}
+.widthsd{
+    width: 100%;
+}
+.modal-body>*{
+    margin: 10px auto;
+    border-radius: 2px;
+}
 @media (max-width: 991px) {
 
     .tarjeta-primer-muestra .muestra-img {
